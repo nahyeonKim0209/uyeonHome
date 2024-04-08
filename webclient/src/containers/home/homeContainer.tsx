@@ -1,7 +1,10 @@
+import Image from 'next/image';
+import bg from '@/images/background.png';
+
 export default function Home() {
   return (
     <main>
-      <div>메인 페이지</div>
+      <Image src={bg} alt="main background image" fill={true} object-fit="cover" object-position="top" />
     </main>
   );
 }

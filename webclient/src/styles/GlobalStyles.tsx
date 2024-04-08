@@ -177,6 +177,7 @@ const GlobalStyles = createGlobalStyle`
   body{
     font-family: 'NotoSansKR';
     font-weight: 400;
+    min-height: 100vh;
   }
 `;
 

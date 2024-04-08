@@ -1,8 +1,9 @@
 'use client';
-import { metadata } from '@/data/metadata';
+import { metadata } from 'data/metadata';
 import '@/styles/globals.css';
+import 'styles/globals.css';
 
-import { FontStyles, ResetStyles, GlobalStyles } from '@/styles/GlobalStyles';
+import { FontStyles, ResetStyles, GlobalStyles } from 'styles/GlobalStyles';
 
 export default function RootLayout({
   children,
