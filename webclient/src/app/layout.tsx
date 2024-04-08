@@ -1,9 +1,10 @@
 'use client';
 import { metadata } from 'data/metadata';
-import '@/styles/globals.css';
 import 'styles/globals.css';
 
 import { FontStyles, ResetStyles, GlobalStyles } from 'styles/GlobalStyles';
+import { ColorStyles } from 'styles/variable';
+import { LevelStyles } from 'styles/level';
 
 export default function RootLayout({
   children,
@@ -17,6 +18,8 @@ export default function RootLayout({
       </head>
       <ResetStyles />
       <GlobalStyles />
+      <ColorStyles />
+      <LevelStyles />
       <body>
         <FontStyles />
         {children}
